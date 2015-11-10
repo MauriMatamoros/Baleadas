@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lista;
+package cocobaleadas;
 
 /**
  *
@@ -16,12 +16,9 @@ public class Nodo {
 
     public Nodo() {
     }
-    
-    
-    public Nodo(Object value){
+
+    public Nodo(Object value) {
         this.value = value;
-        
-        
     }
 
     public Nodo getNext() {
@@ -39,7 +36,7 @@ public class Nodo {
     public Object getValue() {
         return this.value;
     }
-    
+
     public boolean hasNext() {
         if (this.next != null) {
             return true;
@@ -48,7 +45,8 @@ public class Nodo {
     }
 
     @Override
-    public String toString(){
-        return ""+value;
+    public String toString() {
+        return "" + value;
     }
+
 }
